@@ -1,0 +1,55 @@
+# Dependencies
+highlighter:      rouge
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+
+# Permalinks
+permalink:              /blog/:categories/:title/
+# permalink:            blog/:categories/:year/:month/:day/:title/
+
+# Setup
+title:            'Anjana Sofia Vakil'
+name:             'Anjana Sofia Vakil'
+#tagline:          ''
+description:      'Language technologist and software developer'
+#url:              http://vakila.github.io/
+baseurl:
+# blogurl:          /blog/
+
+# Assets
+images:         '/img'
+pdfs:           '/pdf'
+
+author:
+  name:           'Anjana Sofia Vakil'
+  url:            vakila.github.io
+  email:          'anjanavakil@gmail.com'
+  github:         'https://github.com/vakila'
+  facebook:       'http://www.facebook.com/anjana.vakil'
+  twitter:        'https://twitter.com/AnjanaVakil'
+  googleplus:     ''
+  linkedin:       'https://www.linkedin.com/in/anjanavakil '
+
+paginate:         3
+# paginate_path:    "/blog/page:num/"
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/vakila/vakila.github.io
+
+# Collections
+collections:
+  - projects
+  - talks
+
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "projects" # a collection in your site, in plural form
+#     values:
+#       layout: "default"
