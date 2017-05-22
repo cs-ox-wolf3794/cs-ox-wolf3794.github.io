@@ -10,11 +10,11 @@ permalink:              /blog/:categories/:title/
 # permalink:            blog/:categories/:year/:month/:day/:title/
 
 # Setup
-title:            'Anjana Sofia Vakil'
-name:             'Anjana Sofia Vakil'
+title:            'Shakya Deb Ganguly'
+name:             'Shakya Deb Ganguly'
 #tagline:          ''
-description:      'Language technologist and software developer'
-#url:              http://vakila.github.io/
+description:      'Digital Consultant and Technologist'
+#url:              https://cs-ox-wolf3794.github.io/
 baseurl:
 # blogurl:          /blog/
 
@@ -25,12 +25,12 @@ pdfs:           '/pdf'
 author:
   name:           'Anjana Sofia Vakil'
   url:            vakila.github.io
-  email:          'anjanavakil@gmail.com'
-  github:         'https://github.com/vakila'
-  facebook:       'http://www.facebook.com/anjana.vakil'
-  twitter:        'https://twitter.com/AnjanaVakil'
+  email:          'ganguly.sd@gmail.com'
+  github:         'https://github.com/cs-ox-wolf3794'
+  facebook:       'http://www.facebook.com/iwhozombie'
+  twitter:        'https://twitter.com/iwhozombie'
   googleplus:     ''
-  linkedin:       'https://www.linkedin.com/in/anjanavakil '
+  linkedin:       'https://www.linkedin.com/in/shakya-d-ganguly-ba8a3a21/'
 
 paginate:         3
 # paginate_path:    "/blog/page:num/"
@@ -39,7 +39,7 @@ paginate:         3
 version:          2.1.0
 
 github:
-  repo:           https://github.com/vakila/vakila.github.io
+  repo:           https://github.com/cs-ox-wolf3794/cs-ox-wolf3794.github.io/
 
 # Collections
 collections:
