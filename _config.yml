@@ -53,3 +53,5 @@ collections:
 #       type: "projects" # a collection in your site, in plural form
 #     values:
 #       layout: "default"
+
+theme: jekyll-theme-modernist
