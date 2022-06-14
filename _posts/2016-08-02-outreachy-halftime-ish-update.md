@@ -3,7 +3,7 @@ layout: post
 title: "Outreachy halftime(ish) update"
 ---
 
-It feels like yesterday that I [started my Outreachy internship]({% post_url 2016-05-23-outreachy-what-how-why %}), but it was actually over 2 months ago! For the last couple of weeks I've been on Outreachy hiatus because of [EuroPython](https://ep2016.europython.eu/en/), moving from [Saarbrücken to Berlin](https://goo.gl/maps/Rp7qp5Dvg5C2), and my mentor being on vacation. Now I'm back, with 6 weeks left in my internship! So it seems like a good moment to check in and reflect on how things have been going so far, and what's in store for the rest of my time as an Outreachyee.
+It was actually over 2 months ago! For the last couple of weeks I've been on Outreachy hiatus because of [EuroPython](https://ep2016.europython.eu/en/), moving from [Saarbrücken to Berlin](https://goo.gl/maps/Rp7qp5Dvg5C2), and my mentor being on vacation. Now I'm back, with 6 weeks left in my internship! So it seems like a good moment to check in and reflect on how things have been going so far, and what's in store for the rest of my time as an Outreachyee.
 
 ## What have I been up to?
 
@@ -42,9 +42,6 @@ That's where I come in. My mentor, Maja, had started writing some unit tests for
 Aside from the testing side of things, another aspect of the project (which I particularly enjoy) involves improving how the runner relates to the rest of the world. For example, improving the [command line interface](https://bugzilla.mozilla.org/show_bug.cgi?id=1237958) to the runner, or making sure the unit tests for the runner are producing [logs](https://bugzilla.mozilla.org/show_bug.cgi?id=1285299) that play nicely with the rest of the Mozilla ecosystem.
 
 
-### Writing stuff down
-
-As you can see, I've also been spending a fair bit of time writing blog [p]({% post_url 2016-05-23-outreachy-what-how-why %})[o]({% post_url 2016-06-03-warming-up-to-mercurial %})[s]({% post_url 2016-06-16-i-want-to-mock-with-you %})[t]({% post_url 2016-06-20-mozilla-london-all-hands-2016 %})[s]({% post_url 2016-07-08-marionette-act-i-automation %}) about what I've been learning and encountering over the course of my internship. Hopefully these have been or will be useful to others who might also be wrapping their heads around these things for the first time. But regardless, writing them has certainly been useful for me!
 
 
 ## What's been fun?
