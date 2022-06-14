@@ -3,7 +3,7 @@ layout: post
 title: "Outreachy halftime(ish) update"
 ---
 
-It was actually over 2 months ago! For the last couple of weeks I've been on Outreachy hiatus because of [EuroPython](https://ep2016.europython.eu/en/), moving from [Saarbrücken to Berlin](https://goo.gl/maps/Rp7qp5Dvg5C2), and my mentor being on vacation. Now I'm back, with 6 weeks left in my internship! So it seems like a good moment to check in and reflect on how things have been going so far, and what's in store for the rest of my time as an Outreachyee.
+Now I'm back, with 6 weeks left in my internship! So it seems like a good moment to check in and reflect on how things have been going so far, and what's in store for the rest of my time as an Outreachyee.
 
 ## What have I been up to?
 
@@ -13,23 +13,17 @@ In the rather involved application process for Outreachy, I already had to spend
 
 * **The tools**
 
-  I've already written about my learning experiences with [Mercurial]({% post_url 2016-06-03-warming-up-to-mercurial %}), but there were a lot of other components of the Mozilla development process that I had to learn about (and am still learning about), such as [Bugzilla](https://bugzilla.mozilla.org/), [MozReview](http://mozilla-version-control-tools.readthedocs.io/en/latest/mozreview.html), [Treeherder](https://wiki.mozilla.org/EngineeringProductivity/Projects/Treeherder), [Try](https://wiki.mozilla.org/ReleaseEngineering/TryServer), [Mach](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/mach)...
-  Then, since the project I'm working focuses on testing, I had to grok things like [Pytest](http://docs.pytest.org/en/latest/) and [Mock](https://docs.python.org/3/library/unittest.mock.html). Since most everything I'm doing is in Python, I've also been picking up useful Python tidbits here and there.
+  
 
 * **The project**
 
-  My internship project, ["Test-driven refactoring of Marionette's Python test runner"](https://wiki.mozilla.org/Outreachy#Test-driven_Refactoring_of_Marionette.27s_Python_Test_Runner), relates to a component of the Marionette project, which encompasses a lot of moving parts. Even figuring out what Marionette is, what components it comprises, how these interrelate, and which of them I need to know about, was a non-trivial task. That's why I'm writing a couple of posts about the project itself - [one down]({% post_url 2016-07-08-marionette-act-i-automation %}), one to go - to crystallize what I've learned and hopefully make it a little easier for other people to get through the what-even-is-it steps that I've been going through. This post is a sort of "intermission", so stay tuned for my upcoming post on the Marionette test runner and harness!
-
+ 
 
 ### Doing the work
 
 Of course, there's a reason I've been trying to wrap my head around all the stuff I just mentioned: so that I can actually do this project! So what is the actual work I've been doing, i.e. my overall contribution to Mozilla as an Outreachy intern?
 
-Well, to quote the [project description](https://wiki.mozilla.org/Outreachy#Test-driven_Refactoring_of_Marionette.27s_Python_Test_Runner):
-
-> we're testing the thing that runs Firefox tests
-
-The "thing" is the Marionette test runner, a tool written in Python that allows us to run tests that make use of [Marionette](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette) to automate the browser. It's responsible for things like discovering which tests we need to run, setting up all the necessary prerequisites, running the tests one by one, and logging all of the results.
+ automate the browser. It's responsible for things like discovering which tests we need to run, setting up all the necessary prerequisites, running the tests one by one, and logging all of the results.
 
 Since the test runner is essentially a program like any other, it can be broken just like any other! And since it's used in automation to run the tests that let Firefox developers know if some new change they've introduced breaks something, if the test runner itself breaks, that could cause a lot of problems. So what do we do? We test it!
 
@@ -48,7 +42,7 @@ Aside from the testing side of things, another aspect of the project (which I pa
 
 ### Learning all the things
 
-  While working with a new system or technology can often be frustrating, especially when you're used to something similar-but-not-quite-the-same (ahem, [git and hg]({% post_url 2016-06-03-warming-up-to-mercurial %})), I've found that the frustration does subside (or at least lessen) eventually, and in its place you find not only the newfound ease of working with the new thing, but also the gratification that comes with the realization: "Hey! I learned the thing!" This makes the overall experience of grappling with the learning curve fun, in my experience.
+ I've found that the frustration does subside (or at least lessen) eventually, and in its place you find not only the newfound ease of working with the new thing, but also the gratification that comes with the realization: "Hey! I learned the thing!" This makes the overall experience of grappling with the learning curve fun, in my experience.
 
 ### Working remotely
 
