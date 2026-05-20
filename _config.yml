@@ -24,12 +24,9 @@ pdfs:           '/pdf'
 
 author:
   name:           'Shakya Deb Ganguly'
-  url:            shakya.github.io
+  url:            cs-ox-wolf3794.github.io
   email:          'ganguly.sd@gmail.com'
   github:         'https://github.com/cs-ox-wolf3794'
-  facebook:       'http://www.facebook.com/iwhozombie'
-  twitter:        'https://twitter.com/iwhozombie'
-  googleplus:     ''
   linkedin:       'https://www.linkedin.com/in/shakya-d-ganguly-ba8a3a21/'
 
 paginate:         3
