@@ -1,7 +1,7 @@
 ---
 title: "Letter frequency visualization"
 tagline: "An interactive visualization of relative letter frequencies in various languages"
-website: "http://vakila.github.io/rc-projects/letters"
+website: ""
 skills: ["JavaScript", "D3"]
 ---
 
