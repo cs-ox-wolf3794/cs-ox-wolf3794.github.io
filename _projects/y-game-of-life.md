@@ -1,7 +1,7 @@
 ---
 title: "The Game of Life"
 tagline: "An interactive browser-based visualization of the Game of Life"
-website: "http://vakila.github.io/rc-projects/game-of-life"
+website: ""
 skills: ["JavaScript", "CSS", "HTML"]
 ---
 
